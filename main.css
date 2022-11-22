@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  max-width: 1200px;
+  height: 500px;
+  background-color: grey;
+  padding-top: 20px;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.partleft {
+  max-width: 500px;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image {
+  width: 130px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.inner-text {
+  list-style: none;
+}
+
+.count {
+  margin-right: 8px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.partrigth {
+  width: 600px;
+}
+
+.total {
+  position: absolute;
+  bottom: 0;
+}
+
+.total-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.total-item {
+  margin-bottom: 20px;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.list2 {
+  position: relative;
+  list-style: none;
+}
+
+.item2 {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image2 {
+  width: 130px;
+  height: 110px;
+  border-radius: 10px;
+  background-image: url("./img/iphone14.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-text2 {
+  list-style: none;
+}
+
+.count {
+  margin-right: 8px;
+}
+
+.inner-item2 {
+  width: 100px;
+}
+
+.addbtn {
+  padding: 5px;
+}
+
+.delete {
+  padding: 5px;
+  color: #fff;
+  background-color: red;
+}
+
+.createminus {
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title2 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.btn2 {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.image3 {
+  width: 130px;
+  height: 110px;
+  border-radius: 10px;
+  background-image: url("./img/redmi11.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image4 {
+  width: 130px;
+  height: 110px;
+  border-radius: 10px;
+  background-image: url("./img/samsung.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn3 {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
